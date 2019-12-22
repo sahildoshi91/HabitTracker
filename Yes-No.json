@@ -1,0 +1,28 @@
+{
+  "id": "b64819d6-c79a-4eb5-8f17-b3042a4b0d3c",
+  "name": "Yes-No",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "yes",
+      "synonyms": [
+        "yes",
+        "yup",
+        "yeah"
+      ]
+    },
+    {
+      "value": "no",
+      "synonyms": [
+        "no",
+        "nope",
+        "nah",
+        "sorry"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": true,
+  "isRegexp": false
+}

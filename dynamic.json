@@ -1,0 +1,97 @@
+{
+  "id": "0766bfce-8d35-4c57-9fca-952119364cf8",
+  "name": "dynamic",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "dynamic.dynamic-custom",
+      "affectedContexts": [
+        {
+          "name": "dynamic-start-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b2043cb4-4922-48c2-ba23-54dc51e3122f",
+          "required": true,
+          "dataType": "@Yes-No",
+          "name": "answer",
+          "value": "$answer",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "b970d464-6cbc-45a0-8d25-1f648a6af280",
+      "data": [
+        {
+          "text": "yes",
+          "alias": "answer",
+          "meta": "@Yes-No",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d710aebf-691b-42fb-9949-653ad8c0b75e",
+      "data": [
+        {
+          "text": "no",
+          "alias": "answer",
+          "meta": "@Yes-No",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "cfae87df-8aef-47c4-bc25-22992ea3aeda",
+      "data": [
+        {
+          "text": "Track my habits",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}
