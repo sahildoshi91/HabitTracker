@@ -17,7 +17,7 @@
       "parameters": [
         {
           "id": "b2043cb4-4922-48c2-ba23-54dc51e3122f",
-          "required": true,
+          "required": false,
           "dataType": "@Yes-No",
           "name": "answer",
           "value": "$answer",
